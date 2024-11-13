@@ -1,0 +1,75 @@
+body {
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: slategray;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  min-width: 100px;
+  max-width: 300px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+fieldset {
+  border: 2px solid slategray;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: lightsteelblue;
+}
+
+legend {
+  font-weight: bold;
+}
+
+textarea {
+  width: 90%;
+  height: 60px;
+  resize: none;
+}
+
+input[type="text"] {
+  padding: 5px;
+  margin: 5px 0;
+  width: 50px;
+  text-align: center;
+}
+
+input[type="button"],
+input[type="reset"] {
+  background-color: slategray;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover,
+input[type="reset"]:hover {
+  background-color: darkslategray;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: slategray;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

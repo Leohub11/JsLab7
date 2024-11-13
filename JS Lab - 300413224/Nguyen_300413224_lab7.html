@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/Lab07.css" rel="stylesheet" />
+    <meta name="author" content="Bambang" />
+    <meta charset="utf-8" />
+    <script src="./script/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h3>Lab 7: JavaScript Arithmetic Operator</h3>
+    </header>
+    <section>
+      <form name="my_calculator" action="" method="GET">
+        <fieldset>
+          <legend>My calculator</legend>
+          <textarea name="output" rows="3" cols="30" readonly></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Input</legend>
+          <label>Operands:</label>
+          <input
+            type="text"
+            name="input_a"
+            id="input_a"
+            size="3"
+            maxlength="3"
+            placeholder=""
+          />
+          <input
+            type="text"
+            name="input_b"
+            id="input_b"
+            size="3"
+            maxlength="3"
+            placeholder=""
+          />
+          <br /><br />
+          <label>Operator:</label>
+          <input type="button" name="add" value="+" onclick="addValue()" />
+          <input type="button" name="mul" value="×" onclick="mulValue()" />
+          <input type="button" name="div" value=":" onclick="divValue()" />
+          <input type="reset" value="clear" />
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      <p>2024 Leo Nguyen</p>
+    </footer>
+  </body>
+</html>
